@@ -1,0 +1,24 @@
+{
+  "name": "react-native-html",
+  "version": "0.1.0",
+  "description": "render html as react native custom elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:turingou/react-native-html.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "html"
+  ],
+  "author": "turing <o.u.turing@Gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/react-native-html/issues"
+  },
+  "homepage": "https://github.com/turingou/react-native-html"
+}
