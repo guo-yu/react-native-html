@@ -1,19 +1,36 @@
 ## react-native-html ![NPM version](https://img.shields.io/npm/v/react-native-html.svg?style=flat) 
 
-render html as react native custom elements
+Render html string as react native custom elements 
+
+**Tips:** WIP, only support <Image> and <Text> right now.
 
 ### Installation
 ```bash
-$ npm install react-native-html
+$ npm install react-native-html --save
 ```
 
 ### Example
 ```js
-var reactNativeHtml = require('react-native-html');
-```
+var React = require('react-native');
+var {
+  AppRegistry,
+  View
+} = React;
+var ReactHtml = require('react-native-html');
 
-### API
-check this file: `index.js`
+var App = React.createClass({
+  render: function() {
+    return (
+      <ReactHtml>
+        <img src="a_image.jpg" />
+        Some text else.
+      </ReactHtml>
+    );
+  }
+});
+
+AppRegistry.registerComponent('myApp', () => App);
+```
 
 ### Contributing
 - Fork this repo

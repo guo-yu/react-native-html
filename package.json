@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "render html as react native custom elements",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:turingou/react-native-html.git"
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/turingou/react-native-html/issues"
   },
-  "homepage": "https://github.com/turingou/react-native-html"
+  "homepage": "https://github.com/turingou/react-native-html",
+  "dependencies": {
+    "react-native": "^0.3.1"
+  }
 }
